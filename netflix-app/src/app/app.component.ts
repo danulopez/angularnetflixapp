@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Media } from './interfaces/media';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,7 @@ public comedyFilms = {
     section: "Comedia",
     films: [{
       title: "Casi 300",
-      image: "./src/assets/images/Comedia/casi300.webp"
+      image: "./assets/images/Comedia/casi300.webp"
     },{
     title: "Cazafantasmas",
       image: "./assets/images/Comedia/cazafantasmas.webp"
